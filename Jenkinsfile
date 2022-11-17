@@ -22,11 +22,6 @@ pipeline{
        echo "artifacts uploaded succesfully"
     }
     }
-	   stage('Deploy artifacts'){
-     steps{
-       echo "artifacts deployed succesfully"
-    }
-    }
 	
    }
 
