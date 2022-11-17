@@ -17,7 +17,12 @@ pipeline{
        echo "security scan succesful"
     }
     }
-
+ stage('upload artifacts'){
+     steps{
+       echo "artifacts upload is succesful"
+    }
+    }
+	   
    }
 
 	}
