@@ -19,7 +19,7 @@ pipeline{
     }
  stage('upload artifacts'){
      steps{
-       echo "artifacts are uploaded succesfully"
+       echo "artifacts uploaded succesfully"
     }
     }
 	   
